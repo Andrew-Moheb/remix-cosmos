@@ -1,3 +1,4 @@
+import React from "react";
 function CategoryCard({ card }) {
   return (
     <div className="relative w-[294px] h-[248px] bg-slate-100 rounded-md ">
