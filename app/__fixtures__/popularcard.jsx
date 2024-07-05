@@ -1,11 +1,11 @@
 import React from "react";
 import MostPopularCard from "../components/MostPopularCard";
-import { categoryCardData } from "../data/data";
+import { popularCardData } from "../data/data";
 
 function popularcard() {
   return (
     <div>
-      <MostPopularCard card={categoryCardData} />
+      <MostPopularCard card={popularCardData} />
     </div>
   );
 }
